@@ -1,1 +1,1 @@
-# This website is live on GitHub
+# https://john-szetho.github.io
