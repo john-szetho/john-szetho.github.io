@@ -1,2 +1,1 @@
-# john-szetho.github.io
-github live website
+# This website is live on GitHub
