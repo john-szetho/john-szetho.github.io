@@ -1,0 +1,33 @@
+html {
+  font-size: 100%;
+}
+
+body {
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  font-size: 2rem;
+  letter-spacing: 0.015rem;
+  line-height: 1.98rem;
+  background-color: #ffffff;
+  /* text-transform: lowercase; */
+}
+
+h1, h2, h3, p, a {
+  text-decoration: none;
+  color: #333333;
+}
+
+a:hover {
+  /* text-transform: uppercase; */
+  text-shadow: chartreuse 2px;
+  transform: rotateY(35deg);
+}
+
+main, footer {
+  margin: 1rem;
+  text-align: center;
+}
+
+footer {
+  display: flex;
+  justify-content: center;
+}
