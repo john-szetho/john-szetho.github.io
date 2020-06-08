@@ -1,0 +1,21 @@
+@import url(//fonts.googleapis.com/css?family=Work+Sans:400);
+
+@font-face {
+    font-family: 'GlyphWorld AirLand';
+    src: url(GlyphWorld-AirLand.woff);
+}
+
+@font-face {
+    font-family: 'GlyphWorld Mountain';
+    src: url(GlyphWorld-Mountain.woff);
+}
+
+@font-face {
+    font-family: 'GlyphWorld AnimalSoul';
+    src: url(GlyphWorld-AnimalSoul.woff);
+}
+
+@font-face {
+    font-family: 'GlyphWorld Meadow';
+    src: url(GlyphWorld-Meadow.woff);
+}
