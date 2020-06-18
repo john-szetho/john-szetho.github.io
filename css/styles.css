@@ -27,7 +27,7 @@ h1, h2, h3, p, a {
   color: #333333;
 }
 
-a {
+a.emoji {
   transition: .7s;
 }
 
