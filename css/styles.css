@@ -14,7 +14,7 @@ html, body {
 }
 
 body {
-  font-family: 'texgyre-heros', sans-serif;
+  font-family: 'texgyre-heros', Arial, sans-serif;
   font-size: 2rem;
   letter-spacing: .2;
   line-height: 2.2rem;
