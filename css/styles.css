@@ -1,0 +1,115 @@
+@font-face {
+  font-family: 'editorial';
+  src: url(../fonts/EditorialNew-Thin.otf);
+}
+
+@font-face {
+  font-family: 'texgyre-heros';
+  src: url(../fonts/texgyreheroscn-regular.otf);
+}
+
+html {
+  font-size: 100%;
+}
+
+body {
+  font-family: 'texgyre-heros', sans-serif;
+  font-size: 2rem;
+  letter-spacing: .2;
+  line-height: 2.2rem;
+  background-color: #ffffff;
+  color: #333333;
+}
+
+h1, h2, h3, p, a {
+  text-decoration: none;
+  color: #333333;
+}
+
+a {
+  transition: .7s;
+}
+
+a.emoji:hover {
+  transform: rotate(180deg);
+}
+
+a:hover {
+  opacity: .7;
+}
+
+.logo {
+  text-transform: uppercase;
+}
+
+.container {
+  position: fixed;
+  height: 4rem;
+  display: flex;
+  align-items: center;
+  top: -4rem;
+  left: -4rem;
+  transform-origin: bottom left;
+  transform: rotate(90deg);
+  border-top: 2px solid #333333;
+  background-color: #ffffff;
+  z-index: 99;
+}
+
+.primary-nav {
+  width: 100vh;
+  display: flex;
+  justify-content: space-between;
+  padding: 0 1rem;
+}
+
+.menu-toggle {
+  position: fixed;
+  top: 0;
+  right: 0;
+  padding: 1rem;
+}
+
+main {
+  font-family: 'editorial', 'Times New Roman', Times, serif;
+  text-transform: uppercase;
+
+  display: flex;
+  align-items: center;
+  width: max-content;
+  height: 100vh;
+  vertical-align: middle;
+  font-size: 75vh;
+  letter-spacing: -10;
+  padding: 1rem;
+  overflow-y: hidden;
+}
+
+main p {
+  transform: translateY(9vh);
+}
+
+footer {
+  position: fixed;
+  right: 0;
+  bottom: 0;
+  padding: 1rem 1rem .5rem 1rem;
+  font-size: 1.2rem;
+  overflow-y: hidden;
+  width: 50vw;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+}
+
+.open {
+  left: 0;
+}
+
+.open2 {
+  margin-left: 4rem;
+}
+
+.menu, .menu2 {
+  transition: 0.8s;
+}
