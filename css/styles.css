@@ -52,7 +52,7 @@ a:hover {
   font-size: 1.8rem;
 }
 
-.container {
+.nav-bar {
   position: fixed;
   height: 4rem;
   display: flex;
@@ -66,7 +66,7 @@ a:hover {
   z-index: 99;
 }
 
-.primary-nav {
+.nav-bar-content {
   width: 100vh;
   display: flex;
   justify-content: space-between;
@@ -81,6 +81,8 @@ main {
   align-items: center;
   width: max-content;
   height: 100vh;
+  height: calc(var(--vh, 1vh) * 100);
+
   vertical-align: middle;
   font-size: 75vh;
   letter-spacing: -10;
