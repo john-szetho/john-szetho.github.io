@@ -20,6 +20,7 @@ body {
   line-height: 2.2rem;
   background-color: #ffffff;
   color: #333333;
+  z-index: -5;
 }
 
 h1, h2, h3, p, a {
@@ -85,6 +86,7 @@ main {
   letter-spacing: -10;
   padding: 1rem;
   overflow-y: hidden;
+  z-index: 0;
 }
 
 main p {
@@ -102,6 +104,7 @@ footer {
   display: flex;
   flex-direction: row;
   justify-content: space-evenly;
+  z-index: 50;
 }
 
 .open {
