@@ -28,20 +28,38 @@ h1, h2, h3, p, a {
   color: #333333;
 }
 
-a.emoji {
-  transition: .7s;
-}
-
-a.emoji:hover {
-  transform: rotate(180deg);
-}
-
 a:hover {
   opacity: .7;
 }
 
+.emoji {
+  transition: .7s;
+  cursor: alias;
+}
+
+.emoji:hover {
+  transform: rotate(180deg);
+}
+
 .logo {
   text-transform: uppercase;
+  cursor: vertical-text;
+}
+
+.refresh {
+  cursor: progress;
+}
+
+.www {
+  cursor: crosshair;
+}
+
+.menu-toggle a {
+  cursor: w-resize;
+}
+
+.menu-toggle a:active {
+  cursor:e-resize;
 }
 
 .menu-toggle {
