@@ -55,7 +55,7 @@ a:hover {
 }
 
 .menu-toggle a {
-  cursor: sw-resize;
+  cursor: default;
 }
 
 .menu-toggle {
