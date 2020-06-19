@@ -55,11 +55,7 @@ a:hover {
 }
 
 .menu-toggle a {
-  cursor: w-resize;
-}
-
-.menu-toggle a:active {
-  cursor:e-resize;
+  cursor: sw-resize;
 }
 
 .menu-toggle {
