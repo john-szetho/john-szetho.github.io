@@ -12,7 +12,7 @@ let vh = window.innerHeight * 0.01;
 document.documentElement.style.setProperty('--vh', `${vh}px`);
 
 // Get IP address
-// Print in html where id is #gfg
+// Print in html
 
 $.getJSON('https://api.ipify.org/?format=json', function(data) {
 
