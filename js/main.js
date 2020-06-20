@@ -10,3 +10,12 @@ $('.menu-toggle').on('click', function() {
 let vh = window.innerHeight * 0.01;
 
 document.documentElement.style.setProperty('--vh', `${vh}px`);
+
+// Get IP address
+// Print in html where id is #gfg
+
+$.getJSON('https://api.ipify.org/?format=json', function(data) {
+
+    document.getElementById("ip-output").innerHTML = " " + data.ip + ",";
+
+});
