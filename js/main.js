@@ -16,6 +16,6 @@ document.documentElement.style.setProperty('--vh', `${vh}px`);
 
 $.getJSON('https://api.ipify.org/?format=json', function(data) {
 
-    document.getElementById("ip-output").innerHTML = " " + data.ip + ",";
+    document.getElementById("ip-output").innerHTML = " " + data.ip;
 
 });
